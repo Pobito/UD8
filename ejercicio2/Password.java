@@ -33,6 +33,13 @@ public class Password {
 		this.contraseña = generarContraseña(longitud);
 	}
 	
+	
+	
+	@Override
+	public String toString() {
+		return "Password [longitud=" + longitud + ", contraseña=" + contraseña + "]";
+	}
+
 	// Metodo para generar contraseña aleatoria
 	public String generarContraseña (int longitud) {
 		String contraseña = "";

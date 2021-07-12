@@ -8,8 +8,8 @@ public class ejercicio2App {
 		Password contraseña1 = new Password();
 		Password contraseña2 = new Password(10);
 		
-		System.out.println(contraseña1.getContraseña());
-		System.out.println(contraseña2.getContraseña());
+		System.out.println(contraseña1.toString());
+		System.out.println(contraseña2.toString());
 	}
 
 }

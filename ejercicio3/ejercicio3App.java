@@ -7,10 +7,7 @@ public class ejercicio3App {
 
 		Electrodomestico ele1 = new Electrodomestico(100, "verde", 'P', 5);
 		
-		System.out.println(ele1.getPeso());
-		System.out.println(ele1.getConsumoEnerg());
-		System.out.println(ele1.getPrecioBase());
-		System.out.println(ele1.getColor());
+		System.out.println(ele1.toString());
 	}
 
 }

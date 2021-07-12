@@ -47,6 +47,13 @@ public class Electrodomestico {
 		this.peso = peso;
 	}
 
+	
+	@Override
+	public String toString() {
+		return "Electrodomestico [precioBase=" + precioBase + ", color=" + color + ", consumoEnerg=" + consumoEnerg
+				+ ", peso=" + peso + "]";
+	}
+
 	// Constructores
 	public Electrodomestico() {
 		super();

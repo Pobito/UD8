@@ -52,6 +52,12 @@ public class Serie {
 	}
 	
 	
+	@Override
+	public String toString() {
+		return "Serie [titulo=" + titulo + ", numTemps=" + numTemps + ", entregado=" + entregado + ", genero=" + genero
+				+ ", creador=" + creador + "]";
+	}
+
 	// Constructores
 	public Serie() {
 		this.numTemps = 3;

@@ -86,5 +86,13 @@ public class Persona {
 	public void setAltura(double altura) {
 		this.altura = altura;
 	}
+
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", edad=" + edad + ", dni=" + dni + ", sexo=" + sexo + ", peso=" + peso
+				+ ", altura=" + altura + "]";
+	}
+	
+	
 	
 }
